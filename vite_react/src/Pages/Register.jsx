@@ -1,15 +1,12 @@
-
-
-import RegisterForm from "../Components/RegisterForm";
-
+// import SimpleRegistrationForm from "../Components/RegistrationForm";
 
 const Register = ()=>{
    
 
     return(
         <div>
-            <RegisterForm/>
-
+            
+{/* <SimpleRegistrationForm/> */}
 
         </div>
     )
