@@ -4,16 +4,16 @@ const NavBar =()=>{
      const navigate = useNavigate()
     return(
         <>
-        <div>
+        <div className="flex justify-center mt-2">
             <nav>
-                <ul className="flex space-x-4">
-                    <li onClick={()=>navigate("/")}>Home</li>
-                    <li  onClick={()=>navigate("/login")}>Login</li>
-                    <li  onClick={()=>navigate("/register")}>Register</li>
-                    <li  onClick={()=>navigate("/products")}>Products</li>
-                    <li  onClick={()=>navigate("/sales")}>Sales</li>
-                    <li  onClick={()=>navigate("/dashboard")}>DashBoard</li>
-                    <li><button >My page</button></li>
+                <ul className="flex space-x-4 font-bold">
+                    <li><button onClick={()=>navigate("/")}>Home</button></li>
+                    <li><button onClick={()=>navigate('/login')}>Login</button></li>
+                    <li><button onClick={()=>navigate('/register')}>Register</button></li>
+                    <li> <button onClick={()=>navigate("/products")}>Products</button> </li>
+                    <li><button onClick={()=>navigate('/sales')}>Sales</button></li>
+                    <li><button onClick={()=>navigate('/dashboard')}>DashBoard</button></li>
+
 
                 </ul>
             </nav>
